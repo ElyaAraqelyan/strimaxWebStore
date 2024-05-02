@@ -1,0 +1,66 @@
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+form {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	border: .2em solid #E91E63;
+	border-radius: 1em;
+	padding: 2em;
+
+}
+
+form>h1 {
+	color: #E91E63;
+}
+
+input:focus-visible {
+	outline: none;
+}
+
+.input, .select {
+	border: none;
+	outline: none;
+	border-bottom: .2em solid #E91E63;
+	background: rgba(233, 30, 99, 0.2);
+	border-radius: .2em .2em 0 0;
+	color: #E91E63;
+	margin: 10px;
+	font-size: 17px;
+}
+.input{
+	appearance: none;
+	padding: .4em;
+}
+
+.select {
+	padding: 0.4em 2.4em;
+}
+
+.number {
+	padding: 0.5em;
+	border: .2em solid #E91E63;
+	border-radius: 1em;
+	text-align: center;
+	color: #E91E63;
+	font-size: 17px;
+	background: rgba(233, 30, 99, 0.1);
+
+}
+
+.number::-webkit-inner-spin-button {
+	opacity: 1;
+	background: red;
+}
+
+
+input::placeholder {
+	color: #E91E63;
+}

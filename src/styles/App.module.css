@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  overflow: hidden;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.item{
+  width: 270px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ff005b;
+  margin: 2% 0;
+  cursor: pointer;
+  transition: height 0.4s ease;
+}
+
+.item:hover{
+  height: 530px;
+}
+
+
+.top,
+.middle,
+.bottom{
+  padding-left: 10px;
+}
+.top{
+  align-self: center;
+}
+
+.top > img{
+  width: 100%;
+  height: 30vh;
+}
+
+.middle{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.price{
+  color: #ff005b;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 10px 0 5px 0;
+}
+
+.title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 0;
+  color: grey;
+}
+
+.condition{
+  color: #ff005b;
+  font-size: 16px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+.rating > p > img{
+  width: 15px;
+  margin-right: 6px;
+}
+
+.rating > .rate{
+  color: rgb(41, 40, 40);
+  font-size: 20px;
+  margin-right: 6px;
+}
+.rating > p{
+  color: gray;
+  font-size: 18px;
+}
+
+.text{
+  color: #ff005b;
+  margin: 20%;
+}
+
+button > svg{
+  width: 25px;
+  height: 20px !important;
+} 

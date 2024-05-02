@@ -1,0 +1,21 @@
+.slide > img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #ff005b;
+}
+
+
